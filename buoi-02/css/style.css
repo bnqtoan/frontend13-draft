@@ -1,0 +1,35 @@
+#dac-biet {
+    font-style: normal;
+}
+
+.mau-xanh {
+    color: white;
+    background-color: rgb(2, 5, 14);
+    font-size: 24px;
+    font-style: italic;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.box {
+    padding: 24px;
+    font-weight: normal;
+}
+
+p {
+    padding: 10px 30px 15px;
+    /* margin-top: 10px;
+        margin-right: 30px;
+        margin-bottom: 10px;
+        margin-left: 30px; */
+}
+
+#header p {
+    border: 3px dashed red;
+}
+
+body {
+    font-weight: bold;
+}
