@@ -7,12 +7,80 @@
     <title>Tailwind</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
-  <body class="dark:bg-gray-800 dark:text-white">
-    <p class="text-center">
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut dolor
-      doloribus, maxime expedita quisquam, error minus nesciunt libero possimus
-      illo blanditiis, delectus neque facilis aliquam distinctio odio
-      consequatur reprehenderit. Animi?
-    </p>
+  <body>
+    <div class="container mx-auto">
+      <h2 class="text-5xl font-bold my-4">Nút</h2>
+      <a
+        class="inline-flex gap-4 items-center px-8 py-2 bg-blue-500 text-white font-bold rounded hover:bg-green-700 flex-row-reverse"
+        href="#"
+      >
+        <img
+          class="w-4"
+          src="https://cdn-icons-png.flaticon.com/512/9199/9199518.png"
+          alt="icon"
+        />
+        <span>Click here</span>
+      </a>
+    </div>
+    <section>
+      <div class="container mx-auto">
+        <h2 class="text-5xl font-bold my-4">Chia cột</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div class="bg-gray-300 p-4 rounded">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </div>
+          <div class="bg-gray-300 p-4 rounded">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </div>
+          <div class="bg-gray-300 p-4 rounded">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </div>
+          <div class="bg-gray-300 p-4 rounded">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container mx-auto">
+        <div class="grid grid-cols-3">
+          <div>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Repudiandae delectus quasi, voluptatem incidunt soluta optio
+            provident eius magni tenetur eligendi ipsam quisquam illo harum
+            tempora cumque quia at commodi sunt.
+          </div>
+          <div class="col-span-2">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim nulla
+            eaque cumque iste quisquam fuga quae aut, maiores fugit tempore
+            dolores excepturi nihil, dignissimos, provident nostrum iure id
+            corrupti mollitia.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="container mx-auto">
+      <h2 class="text-5xl font-bold my-4">Menu</h2>
+
+      <ul class="flex gap-4">
+        <li>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">About</a>
+        </li>
+        <li>
+          <a href="#">News</a>
+        </li>
+        <li>
+          <a href="#">Resources</a>
+        </li>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
   </body>
 </html>
