@@ -1,0 +1,29 @@
+.box {
+    width: 250px;
+    height: 250px;
+    background: purple;
+}
+
+.ani-demo {
+    animation: demo 2s ease-in-out infinite alternate;
+}
+
+.ani-demo-slow {
+    animation: demo 10s ease-in-out infinite alternate;
+}
+
+@keyframes demo {
+    0% {
+        background-color: purple;
+    }
+
+    50% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        background-color: yellow;
+        border-radius: 9999px;
+        transform: translate(500px, 0);
+    }
+}

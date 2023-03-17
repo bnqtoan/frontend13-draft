@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS animation</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/wow.min.js"></script>
+  </head>
+  <body>
+    <div
+      class="box animate__bounce"
+      style="margin-bottom: 500px"
+      id="box-1"
+    ></div>
+    <section
+      class="wow animate__fadeInLeft"
+      style="margin-bottom: 300px"
+      data-wow-duration="2s"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, quod officia
+      illum alias quisquam aperiam. Blanditiis iure placeat nobis dolores
+      delectus tempora unde, itaque, eius dolorem consequuntur voluptate
+      deserunt ipsam.
+    </section>
+    <section
+      class="wow animate__fadeInRight"
+      style="margin-bottom: 300px"
+      data-wow-duration="2s"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, quod officia
+      illum alias quisquam aperiam. Blanditiis iure placeat nobis dolores
+      delectus tempora unde, itaque, eius dolorem consequuntur voluptate
+      deserunt ipsam.
+    </section>
+    <section
+      class="wow animate__fadeIn"
+      style="margin-bottom: 300px"
+      data-wow-duration="2s"
+    >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, quod officia
+      illum alias quisquam aperiam. Blanditiis iure placeat nobis dolores
+      delectus tempora unde, itaque, eius dolorem consequuntur voluptate
+      deserunt ipsam.
+    </section>
+    <button id="action">Click me</button>
+    <!-- <div class="box ani-demo-slow"></div> -->
+    <script>
+      const wow = new WOW({
+        boxClass: "wow", // default
+        animateClass: "animate__animated", // default
+        offset: 0, // default
+        mobile: true, // default
+        live: true, // default
+      });
+      wow.init();
+
+      //   const button = document.getElementById("action");
+      //   const box1 = document.getElementById("box-1");
+
+      //   button.addEventListener("click", function () {
+      //     box1.classList.add("animate__shakeY");
+      //   });
+    </script>
+  </body>
+</html>
